@@ -47,10 +47,10 @@ Zircon是位于Fuchsia其余部分底层的微内核，Zircon还提供了核心�
 ## Zircon核心
 
  - 设备管理器 & 设备主机
- - [设备驱动管理（DDK）][zircon-ddk]
+ - [设备驱动开发（DDK）][zircon-ddk]
  - [C系统库（libc）](libc.md)
- - [POSIX I/O（libfdio）](https://github.com/fuchsia-mirror/docs/blob/master/the-book/life_of_an_open.md)
- - [进程启动/ELF加载（liblaunchpad）](https://github.com/fuchsia-mirror/docs/blob/master/the-book/launchpad.md) 
+ - [POSIX I/O（libfdio）](life_of_an_open.md)
+ - [进程启动/ELF加载（liblaunchpad）](launchpad.md) 
 
 <!---
 ## Framework
@@ -72,16 +72,16 @@ Zircon是位于Fuchsia其余部分底层的微内核，Zircon还提供了核心�
 --->
 ## Framework框架
 
- - [核心库](https://github.com/fuchsia-mirror/docs/blob/master/the-book/core_libraries.md)
+ - [核心库](core_libraries.md)
  - 应用模型
    - [接口描述语言（FIDL）][FIDL]
    - 服务
    - 上下文环境
- - [启动顺序](https://github.com/fuchsia-mirror/docs/blob/master/the-book/boot_sequence.md)
+ - [启动顺序](boot_sequence.md)
  - 设备，用户和story runner
  - 组件
- - [命名空间](https://github.com/fuchsia-mirror/docs/blob/master/the-book/namespaces.md)
- - [沙箱](https://github.com/fuchsia-mirror/docs/blob/master/the-book/sandboxing.md)
+ - [命名空间](namespaces.md)
+ - [沙箱](sandboxing.md)
  - [Story][framework-story]
  - [Module][framework-module]
  - [Agent][framework-agent]
@@ -99,8 +99,8 @@ Zircon是位于Fuchsia其余部分底层的微内核，Zircon还提供了核心�
 --->
 ## 存储
 
- - [块设备](https://github.com/fuchsia-mirror/docs/blob/master/the-book/block_devices.md)
- - [文件系统](https://github.com/fuchsia-mirror/docs/blob/master/the-book/filesystems.md)
+ - [块设备](block_devices.md)
+ - [文件系统](filesystems.md)
  - 目录层次结构
  - [Ledger][ledger]
  - 文档存储
@@ -119,7 +119,7 @@ Zircon是位于Fuchsia其余部分底层的微内核，Zircon还提供了核心�
 ## 网络
 
  - 以太网
- - [无线网](https://github.com/fuchsia-mirror/docs/blob/master/the-book/wireless_networking.md)
+ - [无线网络](wireless_networking.md)
  - [蓝牙][bluetooth]
  - Sockets
  - HTTP
@@ -205,15 +205,15 @@ Zircon是位于Fuchsia其余部分底层的微内核，Zircon还提供了核心�
 [zircon-concepts]: /zircon/docs/concepts.md
 [zircon-syscalls]: /zircon/docs/syscalls.md
 [zircon-ddk]: /zircon/docs/ddk/overview.md
-[FIDL]: https://github.com/fuchsia-mirror/zircon/blob/master/docs/fidl/index.md
-[framework-story]: https://github.com/fuchsia-mirror/peridot/blob/master/docs/modular/story.md
-[framework-module]: https://github.com/fuchsia-mirror/peridot/blob/master/docs/modular/module.md
-[framework-agent]: https://github.com/fuchsia-mirror/peridot/blob/master/docs/modular/agent.md
-[ledger]: https://github.com/fuchsia-mirror/peridot/blob/master/docs/ledger/README.md
-[bluetooth]: https://github.com/fuchsia-mirror/garnet/blob/master/bin/bluetooth/README.md
-[magma]:  https://github.com/fuchsia-mirror/garnet/blob/master/lib/magma/
-[escher]:  https://github.com/fuchsia-mirror/garnet/blob/master/public/lib/escher/
-[scenic]:  https://github.com/fuchsia-mirror/garnet/blob/master/docs/ui_scenic.md
-[input-manager]:  https://github.com/fuchsia-mirror/garnet/blob/master/docs/ui_input.md
-[view-manager]:  https://github.com/fuchsia-mirror/garnet/blob/master/bin/ui/view_manager/
+[FIDL]: /zircon/docs/fidl/index.md
+[framework-story]: /peridot/docs/modular/story.md
+[framework-module]: /peridot/docs/modular/module.md
+[framework-agent]: /peridot/docs/modular/agent.md
+[ledger]: /peridot/docs/ledger/README.md
+[bluetooth]: /garnet/bin/bluetooth/README.md
+[magma]:  /garnet/lib/magma/
+[escher]:  /garnet/public/lib/escher/
+[scenic]:  /garnet/docs/ui_scenic.md
+[input-manager]: /garnet/docs/ui_input.md
+[view-manager]:  /garnet/bin/ui/view_manager/
 [flutter]: https://flutter.io/

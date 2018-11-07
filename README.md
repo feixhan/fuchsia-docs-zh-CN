@@ -14,6 +14,7 @@
 ## 快速访问
 
 * [如何下载Fuchsia源码](docs/development/source_code/README.md)
+* [术语表](docs/glossary.md)
 * [一本官方介绍Fuchsia技术细节的书](docs/the-book/)
 * [Fuchsia快速入门](docs/getting_started.md) 
 * [Zircon快速入门](zircon/docs/getting_started.md) 
@@ -23,8 +24,16 @@
 
 下列工作按优先级递减排序：
 
-* 翻译[the-book](https://github.com/fuchsia-mirror/docs/tree/master/the-book)
-* 完成zircon的文档
+* FIDL语言相关文档
+* Zircon的syscall手册页
+* Fuchsia硬件启动指南
+* Zircon DDK文档
+
+## 贡献者列表
+
+感谢支持:heart:
+
++ [feixhan](https://github.com/feixhan)
 
 ## LICENSE
 
